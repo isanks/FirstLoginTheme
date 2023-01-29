@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url(/imagens/blue\ hour\,\ my_art_bytes\(me\)\,\ pixel\ art\,\ 2021.gif);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.area-login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 420px;
+    height: 320px;
+    padding: 35px; 
+    border-radius: 9px;  
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login input{
+    margin-top: 10px;
+    background-color: #352a34;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 7px;
+    color: antiquewhite;
+    padding-left: 10px;
+}
+
+.login img{
+    width: 100px;
+    height: auto;
+}
+
+.input::placeholder{
+    color: antiquewhite;
+    font-size: 14px;
+}
+
+form [type="submit"]{
+    display: block;
+    background-color: darkslateblue;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: hold;
+    cursor: pointer;
+}
+
+p{
+    color: antiquewhite;
+}
+
+a{
+    color: darkslateblue;
+    text-decoration: none;
+    margin-left: 6=5px;
+}
